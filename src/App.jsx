@@ -1,13 +1,15 @@
 import React from 'react'
 
-import './App.css'
+
 
 function App() {
 
 
   return (
     <>
-     <div>Hello Anuj</div>
+      <h1 className="text-3xl font-serif">
+      Hello world!
+    </h1>
     </>
   )
 }
