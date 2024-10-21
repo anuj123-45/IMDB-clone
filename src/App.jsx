@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Navbar from './components/navbar'
 
 
 function App() {
@@ -7,9 +7,7 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-serif">
-      Hello world!
-    </h1>
+    <Navbar/>
     </>
   )
 }
