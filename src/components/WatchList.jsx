@@ -3,7 +3,7 @@ import React from 'react'
 const WatchList = () => {
   return (
     <div>
-      WatchList
+      This is WatchList Component
     </div>
   )
 }
