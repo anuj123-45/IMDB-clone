@@ -205,7 +205,7 @@ const WatchList = ({ watchlist, setwatchList, handleRemoveFromWatchlist }) => {
                 {/* Actions */}
                 <div className="flex justify-between text-red-500 cursor-pointer">
                   <span className="font-semibold">Actions:</span>
-                  <span>Delete</span>
+                  <span onClick={()=>handleRemoveFromWatchlist(movie)}>Delete</span>
                 </div>
               </div>
             ))}

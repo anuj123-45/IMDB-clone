@@ -22,7 +22,7 @@ const handleNext=()=>{
 }
 
   useEffect(() => {
-    axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=c8a48e1ec8f512f3108864d32ed7f8a7&language=en-US&page=${pageNo}`).then((res)=>{
+    axios.get(`/movie/popular?language=en-US&page=${pageNo}`).then((res)=>{
      setmovies(res.data.results)   
     })
  }, [pageNo]);

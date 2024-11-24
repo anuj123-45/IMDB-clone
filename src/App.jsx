@@ -4,8 +4,14 @@ import Movies from './components/Movies'
 import WatchList from './components/WatchList'
 import Banner from './components/Banner'
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import axios from "axios";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+// axios default configurations
+
+axios.defaults.baseURL="https://api.themoviedb.org/3/";
+axios.defaults.params={}
+axios.defaults.params['api_key']=import.meta.env.VITE_API_KEY;
 
 function App() {
 
